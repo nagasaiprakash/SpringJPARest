@@ -409,3 +409,33 @@
 2021-06-21 08:42:58,167 INFO com.cg.osm.service.SweetOrderServiceImpl [http-nio-8085-exec-3] SweetOrder calculateTotalCost()
 2021-06-21 09:16:15,675 INFO com.cg.osm.controller.SweetController [http-nio-8085-exec-8] SweetOrder findOrdersByCustomerId()
 2021-06-21 09:16:15,702 INFO com.cg.osm.service.SweetOrderServiceImpl [http-nio-8085-exec-8] SweetOrder findOrdersByCustomerId()
+2021-06-21 10:24:53,188 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-06-21 10:24:53,243 INFO com.OnlineSweetMartApplication [main] Starting OnlineSweetMartApplication using Java 15.0.2 on DESKTOP-MDF5G37 with PID 5352 (C:\Users\pc\git\SpringJPARest\OnlineSweetMart\bin\main started by pc in C:\Users\pc\git\SpringJPARest\OnlineSweetMart)
+2021-06-21 10:24:53,244 INFO com.OnlineSweetMartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-21 10:24:56,314 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-21 10:24:57,025 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 694 ms. Found 5 JPA repository interfaces.
+2021-06-21 10:24:59,978 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2021-06-21 10:25:00,002 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8085"]
+2021-06-21 10:25:00,003 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-21 10:25:00,004 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-21 10:25:00,258 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-21 10:25:00,259 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6910 ms
+2021-06-21 10:25:00,567 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-21 10:25:01,151 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-21 10:25:02,193 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-21 10:25:02,520 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-21 10:25:02,948 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-21 10:25:03,404 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-21 10:25:05,951 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-21 10:25:05,963 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-21 10:25:08,154 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-21 10:25:10,662 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8085"]
+2021-06-21 10:25:10,713 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path ''
+2021-06-21 10:25:11,945 INFO com.OnlineSweetMartApplication [main] Started OnlineSweetMartApplication in 19.433 seconds (JVM running for 20.513)
+2021-06-21 10:25:19,363 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8085-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-21 10:25:19,363 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-21 10:25:19,369 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-1] Completed initialization in 5 ms
+2021-06-21 10:25:45,921 INFO com.cg.osm.controller.CustomerController [http-nio-8085-exec-4] Customer showAllCustomers()
+2021-06-21 10:25:45,922 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8085-exec-4] Customer showAllCustomers()
+2021-06-21 10:26:37,027 INFO com.cg.osm.service.CustomerServiceImpl [http-nio-8085-exec-6] Customer findCustomerById()
+2021-06-21 10:26:37,039 INFO com.cg.osm.controller.CustomerController [http-nio-8085-exec-6] Customer findCustomerById()
